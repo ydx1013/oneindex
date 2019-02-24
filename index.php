@@ -8,7 +8,7 @@ require  __DIR__.'/init.php';
 
 
 /**
- *    程序安装
+ *    程序安装1
  */
 if( empty( config('refresh_token') ) ){
 	route::any('/','AdminController@install');
